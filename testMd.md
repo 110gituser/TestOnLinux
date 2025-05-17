@@ -6,9 +6,14 @@
 ###### 六级标题
 
 1. 这是一个块级公式：
+
 $$
-\nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}
+\begin{Bmatrix}
+   a & b \\
+   c & d
+\end{Bmatrix}
 $$
+
 2. vscode快捷键 CTRL+K V
 
 _斜体文本_
@@ -57,18 +62,3 @@ int main(int argc, char* argv[]){
 | :-----| ----: | :----: |
 | 单元格 | 单元格 | 单元格 |
 | 单元格 | 单元格 | 单元格 |
-
-$$
-\begin{Bmatrix}
-   a & b \\
-   c & d
-\end{Bmatrix}
-$$
-
-$$
-\begin{CD}
-   A @>a>> B \\
-@VbVV @AAcA \\
-   C @= D
-\end{CD}
-$$
